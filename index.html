@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-left">
+        <img class="logo" src="images/logo.svg" alt="" />
+        <div id="icon">
+          <div class="document-icon">
+            <img class="document" src="images/icon-document.svg" alt="" />
+          </div>
+          <div class="folder-icon">
+            <img class="folder" src="images/icon-folder.svg" alt="" />
+          </div>
+          <div class="upload-icon">
+            <img class="upload" src="images/icon-upload.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="container-right">
+        <div class="text-data">
+          <p>You've used <strong>815 GB</strong> of your storage</p>
+        </div>
+        <div class="box-data">
+          <p><strong>185</strong> <span class="data-span">GB LEFT</span></p>
+        </div>
+        <div class="range">
+          <div class="range-color"></div>
+          <div class="range-ball"></div>
+        </div>
+        <div class="data-left">
+          <p id="left"><strong>0 GB</strong></p>
+          <p id="right"><strong>1000 GB</strong></p>
+        </div>
+      </div>
+      <div id="background"></div>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+      <a href="https://github.com/rafifauzan17">Rafi Fauzan</a>.
+    </div>
+  </body>
+</html>

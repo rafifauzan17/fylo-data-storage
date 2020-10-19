@@ -1,0 +1,198 @@
+:root {
+  --pale-blue: hsl(243, 100%, 93%);
+  --grayish-blue: hsl(229, 7%, 55%);
+  --dark-blue: hsl(228, 56%, 26%);
+  --very-dark-blue: hsl(229, 57%, 11%);
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#background {
+  background: url(images/bg-desktop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vh;
+  position: absolute;
+  top: 50vh;
+}
+
+.container {
+  background-color: var(--very-dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#main {
+}
+
+.container-left {
+  background: var(--dark-blue);
+  width: 349px;
+  height: 200px;
+  border-radius: 10px 100px 10px 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  position: absolute;
+  top: 41px;
+  left: 39px;
+}
+
+#icon {
+  display: flex;
+  margin: 111px 0 41px 39px;
+}
+
+.document-icon {
+  background-color: var(--very-dark-blue);
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+}
+
+.document {
+  padding: 12px 15px 12px 14px;
+}
+
+.folder-icon {
+  background-color: var(--very-dark-blue);
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  margin-left: 16px;
+}
+
+.folder {
+  padding: 14px 12px 15px 12px;
+}
+
+.upload-icon {
+  background-color: var(--very-dark-blue);
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  margin-left: 16px;
+}
+
+.upload {
+  padding: 16px 12px 15px 12px;
+}
+
+.container-right {
+  width: 541px;
+  height: 155px;
+  background: #1d2c67;
+  border-radius: 10px;
+  margin: 48px 0 0 26px;
+  position: relative;
+  z-index: 1;
+}
+
+.text-data {
+  color: #fff;
+  position: absolute;
+  top: 23px;
+  left: 41px;
+  bottom: 98px;
+}
+
+.box-data {
+  position: absolute;
+  width: 178px;
+  height: 73px;
+  background: #ffffff;
+  border-radius: 10px;
+  top: -48px;
+  bottom: 130px;
+  left: 321px;
+}
+
+.box-data p {
+  font-size: 2.5rem;
+  margin: 0;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.box-data .data-span {
+  font-size: 0.7rem;
+  color: var(--grayish-blue);
+  position: relative;
+  bottom: 7px;
+}
+
+/* Style copied from frontend mentor solutions */
+.box-data::before {
+  content: "";
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 0;
+  bottom: -15px;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+/*  */
+
+.range {
+  width: 458px;
+  height: 18px;
+  background: var(--very-dark-blue);
+  border-radius: 50px;
+  position: relative;
+  top: 73px;
+  right: 42px;
+  bottom: 64px;
+  left: 41px;
+}
+
+.range-color {
+  width: 81.5%;
+  height: 100%;
+  background: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  border-radius: 1000px;
+}
+
+.range-ball {
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 355px;
+}
+
+.data-left {
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+  position: relative;
+}
+
+.data-left #left {
+  position: absolute;
+  top: 20px;
+  left: 45px;
+}
+
+.data-left #right {
+  position: absolute;
+  top: 20px;
+  left: 390px;
+  right: 0;
+}
+
+.attribution {
+  text-align: center;
+}
